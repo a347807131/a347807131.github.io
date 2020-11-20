@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gatsby&#39;s Blog</title>
+  
+  <subtitle>You see, I&#39;m Gatsby.</subtitle>
+  <link href="http://blog.gatsby.fun/atom.xml" rel="self"/>
+  
+  <link href="http://blog.gatsby.fun/"/>
+  <updated>2020-11-20T14:07:02.257Z</updated>
+  <id>http://blog.gatsby.fun/</id>
+  
+  <author>
+    <name>Gatsby</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论平等社会</title>
+    <link href="http://blog.gatsby.fun/posts/6a896b51/"/>
+    <id>http://blog.gatsby.fun/posts/6a896b51/</id>
+    <published>2020-11-18T09:38:21.000Z</published>
+    <updated>2020-11-20T14:07:02.257Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;引出&quot;&gt;&lt;a href=&quot;#引出&quot; class=&quot;headerlink&quot; title=&quot;引出&quot;&gt;&lt;/a&gt;引出&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;What is rational is real; and what is real is</summary>
+        
+      
+    
+    
+    
+    
+    <category term="马克思" scheme="http://blog.gatsby.fun/tags/%E9%A9%AC%E5%85%8B%E6%80%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《治安疏》——海瑞</title>
+    <link href="http://blog.gatsby.fun/posts/1163fdaa/"/>
+    <id>http://blog.gatsby.fun/posts/1163fdaa/</id>
+    <published>2020-11-14T22:39:59.000Z</published>
+    <updated>2020-11-20T14:06:58.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;户部云南清吏司主事臣海瑞谨奏；为直言天下第一事，以正君道、明臣职，求万世治安事：&lt;/p&gt;
+&lt;p&gt;君者，天下臣民万物之主也。惟其为天下臣民万物之主，责任至重。凡民生利病，一有所不宜，将有所不称其任。是故事君之道宜无不备，而以其责寄臣工，使之尽言焉。臣工尽言，而君道斯称矣。昔之</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    <category term="原文摘录" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>docker常用命令</title>
+    <link href="http://blog.gatsby.fun/posts/749ad7d8/"/>
+    <id>http://blog.gatsby.fun/posts/749ad7d8/</id>
+    <published>2020-10-26T20:00:17.000Z</published>
+    <updated>2020-11-20T14:06:58.205Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;总览&quot;&gt;&lt;a href=&quot;#总览&quot; class=&quot;headerlink&quot; title=&quot;总览&quot;&gt;&lt;/a&gt;总览&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Docker环境信息 — &lt;code&gt;docker</summary>
+        
+      
+    
+    
+    
+    <category term="计算机科学" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="docker" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/docker/"/>
+    
+    
+    <category term="docker" scheme="http://blog.gatsby.fun/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哲思：因果的错觉，错觉的因果</title>
+    <link href="http://blog.gatsby.fun/posts/9decd376/"/>
+    <id>http://blog.gatsby.fun/posts/9decd376/</id>
+    <published>2020-10-11T17:40:55.000Z</published>
+    <updated>2020-11-20T14:06:58.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;好学生的成绩好，我们普遍认为。但我们认为某人是好学生是因为他成绩好，还是因为他成绩好我们才认为他是好学生？好学生和成绩好哪个才是因果律的原因，哪个又才是他的结果？又或者它们互为因果，而原因发生然后产生结果这样的概念只是我们的错觉？&lt;/p&gt;
+&lt;p&gt;当我们认识到一个学生的成绩好</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    
+    <category term="哲学" scheme="http://blog.gatsby.fun/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="认识" scheme="http://blog.gatsby.fun/tags/%E8%AE%A4%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>马克思主义杂录</title>
+    <link href="http://blog.gatsby.fun/posts/1d81e10/"/>
+    <id>http://blog.gatsby.fun/posts/1d81e10/</id>
+    <published>2020-10-11T16:12:22.000Z</published>
+    <updated>2020-11-20T14:06:58.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;个人观点&quot;&gt;&lt;a href=&quot;#个人观点&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    
+    <category term="马克思主义" scheme="http://blog.gatsby.fun/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89/"/>
+    
+    <category term="杂谈" scheme="http://blog.gatsby.fun/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摘选：马克思主义哲学原理总结</title>
+    <link href="http://blog.gatsby.fun/posts/f39c380f/"/>
+    <id>http://blog.gatsby.fun/posts/f39c380f/</id>
+    <published>2020-09-30T18:06:30.000Z</published>
+    <updated>2020-11-20T14:06:58.080Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;一、唯物论（三观两原理一方法论）10个原理&lt;/p&gt;
+&lt;p&gt;1、三观：物质观、意识观和实践观&lt;/p&gt;
+&lt;p&gt;①物质观：&lt;/p&gt;
+&lt;p&gt;物质和运动的辩证关系原理：&lt;/p&gt;
+&lt;p&gt;世界上一切事物都处在运动和变化之中，运动是物质的根本属性和存在方式，物质是运动的物质，脱离运动的物质</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    <category term="原文摘录" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/"/>
+    
+    
+    <category term="马克思主义" scheme="http://blog.gatsby.fun/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《政治的逻辑》第一章节选：马克思主义政治学的基本特点</title>
+    <link href="http://blog.gatsby.fun/posts/20c95e8d/"/>
+    <id>http://blog.gatsby.fun/posts/20c95e8d/</id>
+    <published>2020-09-27T12:12:54.000Z</published>
+    <updated>2020-11-20T14:06:58.064Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200927201931.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    <category term="原文摘录" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/"/>
+    
+    
+    <category term="马克思主义" scheme="http://blog.gatsby.fun/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89/"/>
+    
+    <category term="政治经济学" scheme="http://blog.gatsby.fun/tags/%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    <category term="王沪宁" scheme="http://blog.gatsby.fun/tags/%E7%8E%8B%E6%B2%AA%E5%AE%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>温铁军教授的访谈，节目，演讲等记录</title>
+    <link href="http://blog.gatsby.fun/posts/7ae332ac/"/>
+    <id>http://blog.gatsby.fun/posts/7ae332ac/</id>
+    <published>2020-09-23T09:57:04.000Z</published>
+    <updated>2020-11-20T14:06:58.096Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;span class=&quot;github-emoji&quot;&gt;&lt;span&gt;📢&lt;/span&gt;&lt;img src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f4e2.png?v8&quot; aria-hidden=&quot;true&quot; onerror=&quot;this.parent.classList.add(&#39;github-emoji-fallback&#39;)&quot;&gt;&lt;/span&gt;     正在收录&lt;strong&gt;温铁军&lt;/strong&gt;教授的访谈，节目，演讲等记录，欢迎大家分享&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href=&quot;https://github.com/kuytro/WenTieJun&quot;&gt;https://github.com/kuytro/WenTieJun&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    <category term="原文摘录" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/"/>
+    
+    
+    <category term="政治经济学" scheme="http://blog.gatsby.fun/tags/%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    <category term="温铁军" scheme="http://blog.gatsby.fun/tags/%E6%B8%A9%E9%93%81%E5%86%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书斋：对于房价的一个思考</title>
+    <link href="http://blog.gatsby.fun/posts/e1915fa2/"/>
+    <id>http://blog.gatsby.fun/posts/e1915fa2/</id>
+    <published>2020-08-13T03:01:26.000Z</published>
+    <updated>2020-11-20T14:06:58.064Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在资本聚集的大城市中，房价奇高，绝大多数劳动者都负担不起购买房产的资金。面对这个现象，资产阶级经济学家会这样解释：”根据看不见的手的原理下，价格是市场配置资源最高效的手段，因此，买不起房正说明你应该让有能力的人来配置房产，以便能够使其效用最大化。”虽然单个人的收入增长能够解</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    
+    <category term="马克思主义" scheme="http://blog.gatsby.fun/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>白头豕：程序员所属群体的阶级属性</title>
+    <link href="http://blog.gatsby.fun/posts/837909d2/"/>
+    <id>http://blog.gatsby.fun/posts/837909d2/</id>
+    <published>2020-03-06T18:23:06.000Z</published>
+    <updated>2020-11-20T14:06:58.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;原文链接：程序员属于什么阶级？上升空间如何？ - 白头豕的回答 - 知乎 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    <category term="原文摘录" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/"/>
+    
+    
+    <category term="马克思主义" scheme="http://blog.gatsby.fun/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等数学(下册)第九章：多元函数微分法及其应用</title>
+    <link href="http://blog.gatsby.fun/posts/6d1532c/"/>
+    <id>http://blog.gatsby.fun/posts/6d1532c/</id>
+    <published>2020-03-06T05:57:26.000Z</published>
+    <updated>2020-11-20T14:06:58.127Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;多元函数的基本概念&quot;&gt;&lt;a href=&quot;#多元函数的基本概念&quot; class=&quot;headerlink&quot; title=&quot;多元函数的基本概念&quot;&gt;&lt;/a&gt;多元函数的基本概念&lt;/h2&gt;&lt;h3 id=&quot;平面点集-n维空间&quot;&gt;&lt;a href=&quot;#平面点集-n维空间&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://blog.gatsby.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等数学(上册)第七章：微分方程</title>
+    <link href="http://blog.gatsby.fun/posts/98da376a/"/>
+    <id>http://blog.gatsby.fun/posts/98da376a/</id>
+    <published>2020-02-17T10:57:40.000Z</published>
+    <updated>2020-11-20T14:06:58.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;微分方程的概念&quot;&gt;&lt;a href=&quot;#微分方程的概念&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://blog.gatsby.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等数学(上册)第五章： 定积分</title>
+    <link href="http://blog.gatsby.fun/posts/10ee9e4a/"/>
+    <id>http://blog.gatsby.fun/posts/10ee9e4a/</id>
+    <published>2020-02-08T14:21:44.000Z</published>
+    <updated>2020-11-20T14:06:58.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;定积分的概念与性质&quot;&gt;&lt;a href=&quot;#定积分的概念与性质&quot; class=&quot;headerlink&quot; title=&quot;定积分的概念与性质&quot;&gt;&lt;/a&gt;定积分的概念与性质&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://blog.gatsby.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> 高等数学(上册)第四章：不定积分</title>
+    <link href="http://blog.gatsby.fun/posts/1c485dab/"/>
+    <id>http://blog.gatsby.fun/posts/1c485dab/</id>
+    <published>2020-02-08T13:38:12.000Z</published>
+    <updated>2020-11-20T14:06:58.127Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;不定积分的概念与性质&quot;&gt;&lt;a href=&quot;#不定积分的概念与性质&quot; class=&quot;headerlink&quot; title=&quot;不定积分的概念与性质&quot;&gt;&lt;/a&gt;不定积分的概念与性质&lt;/h2&gt;&lt;h3 id=&quot;原函数与不定积分的概念&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://blog.gatsby.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>知识点：曲率计算公式推导</title>
+    <link href="http://blog.gatsby.fun/posts/f8570911/"/>
+    <id>http://blog.gatsby.fun/posts/f8570911/</id>
+    <published>2020-02-08T13:01:19.000Z</published>
+    <updated>2020-11-20T14:06:58.174Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;结论&quot;&gt;&lt;a href=&quot;#结论&quot; class=&quot;headerlink&quot; title=&quot;结论&quot;&gt;&lt;/a&gt;结论&lt;/h2&gt;&lt;p&gt;曲率(k)：描述曲线的平均弯曲程度，数学表达$\bar{K}=\left|\frac{\Delta \alpha}{\Delta</summary>
+        
+      
+    
+    
+    
+    <category term="知识点" scheme="http://blog.gatsby.fun/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>知识点：如何通俗理解泰勒公式？</title>
+    <link href="http://blog.gatsby.fun/posts/fdd93f7f/"/>
+    <id>http://blog.gatsby.fun/posts/fdd93f7f/</id>
+    <published>2020-02-08T08:27:42.000Z</published>
+    <updated>2020-11-20T14:06:58.174Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如何通俗地解释泰勒公式？ - 马同学的回答 - 知乎 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="知识点" scheme="http://blog.gatsby.fun/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类库工具：RSS与RssHub</title>
+    <link href="http://blog.gatsby.fun/posts/faa5bb19/"/>
+    <id>http://blog.gatsby.fun/posts/faa5bb19/</id>
+    <published>2020-02-04T14:55:50.000Z</published>
+    <updated>2020-11-20T14:06:58.314Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机科学" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日常踩坑：scoop使用aria2下载报错</title>
+    <link href="http://blog.gatsby.fun/posts/38b60689/"/>
+    <id>http://blog.gatsby.fun/posts/38b60689/</id>
+    <published>2020-02-04T13:09:37.000Z</published>
+    <updated>2020-11-20T14:06:58.299Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在日常使用&lt;code&gt;scoop&lt;/code&gt;安装工具时，不止以此出现如下错误&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="计算机科学" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="日常踩坑" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%97%A5%E5%B8%B8%E8%B8%A9%E5%9D%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日常踩坑：搭建hexo博客中的坑</title>
+    <link href="http://blog.gatsby.fun/posts/ff103bd6/"/>
+    <id>http://blog.gatsby.fun/posts/ff103bd6/</id>
+    <published>2020-02-03T07:38:46.000Z</published>
+    <updated>2020-11-20T14:06:58.299Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;blog启用自用域名&lt;br&gt;Hexo中的坑&lt;/p&gt;
+&lt;p&gt;Latex公式显示问题&lt;br&gt;Latex公式换行问题&lt;br&gt;163music自动播放&lt;br&gt;Gitalk,disqus,liv2d,valine,addthis,music&lt;br&gt;post文件命名问题&lt;/p&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机科学" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="日常踩坑" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%97%A5%E5%B8%B8%E8%B8%A9%E5%9D%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>高等数学(上册)第三章：微分中值定理和导数的应用</title>
+    <link href="http://blog.gatsby.fun/posts/afee1d48/"/>
+    <id>http://blog.gatsby.fun/posts/afee1d48/</id>
+    <published>2020-02-02T14:54:01.000Z</published>
+    <updated>2020-11-20T14:06:58.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;微分中值定理&quot;&gt;&lt;a href=&quot;#微分中值定理&quot; class=&quot;headerlink&quot; title=&quot;微分中值定理&quot;&gt;&lt;/a&gt;微分中值定理&lt;/h2&gt;&lt;h3 id=&quot;费马定理&quot;&gt;&lt;a href=&quot;#费马定理&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="http://blog.gatsby.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+</feed>
