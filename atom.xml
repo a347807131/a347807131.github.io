@@ -6,7 +6,7 @@
   <link href="http://blog.gatsby.fun/atom.xml" rel="self"/>
   
   <link href="http://blog.gatsby.fun/"/>
-  <updated>2020-11-20T14:07:02.257Z</updated>
+  <updated>2020-11-21T09:08:36.111Z</updated>
   <id>http://blog.gatsby.fun/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论法律和道德</title>
+    <link href="http://blog.gatsby.fun/posts/a7d8d24b/"/>
+    <id>http://blog.gatsby.fun/posts/a7d8d24b/</id>
+    <published>2020-11-21T09:06:01.000Z</published>
+    <updated>2020-11-21T09:08:36.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;法律是一种制衡，是约束，用以规范人的行为。但有了法律的形式内容内容内容还不够，还需要法律能够执行的实质基础，倘若有了法律却没有执行的实质基础，违法之事则是必然。正如我国当下《劳动法》的现状，虽由立法之形，却无执行之实。&lt;/p&gt;
+&lt;p&gt;法律是统治阶级的意志体现，作为体制下既得</summary>
+        
+      
+    
+    
+    
+    <category term="书斋" scheme="http://blog.gatsby.fun/categories/%E4%B9%A6%E6%96%8B/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>论平等社会</title>
@@ -513,31 +537,6 @@
     
     <category term="日常踩坑" scheme="http://blog.gatsby.fun/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%97%A5%E5%B8%B8%E8%B8%A9%E5%9D%91/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>高等数学(上册)第三章：微分中值定理和导数的应用</title>
-    <link href="http://blog.gatsby.fun/posts/afee1d48/"/>
-    <id>http://blog.gatsby.fun/posts/afee1d48/</id>
-    <published>2020-02-02T14:54:01.000Z</published>
-    <updated>2020-11-20T14:06:58.111Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;微分中值定理&quot;&gt;&lt;a href=&quot;#微分中值定理&quot; class=&quot;headerlink&quot; title=&quot;微分中值定理&quot;&gt;&lt;/a&gt;微分中值定理&lt;/h2&gt;&lt;h3 id=&quot;费马定理&quot;&gt;&lt;a href=&quot;#费马定理&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="学习笔记" scheme="http://blog.gatsby.fun/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数学" scheme="http://blog.gatsby.fun/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
