@@ -13,20 +13,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
-
     <title>Gatsby&#39;s Blog</title>
     <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/favicon.svg">
 
@@ -35,17 +21,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/jquery/jquery.min.js"></script>
-    
+
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Gatsby's Blog" type="application/atom+xml">
 </head>
-
-
 
 
 <body>
@@ -531,15 +515,35 @@
 <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
-            <div class="title center-align">
+            <h1 class="title center-align center-text glitch is-glitching"
+                data-text="
                 
-                You see, I&#39;m Gatsby.
+                    You see, I&#39;m Gatsby.
                 
-            </div>
+            ">
+                
+                    You see, I&#39;m Gatsby.
+                
+            </h1>
 
             <div class="description center-align">
                 
-                
+                    <!-- 一言API -->
+                    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+                    <script>
+                        fetch('https://v1.hitokoto.cn')
+                            .then(function (res) {
+                                return res.json();
+                            })
+                            .then(function (data) {
+                                var hitokoto = document.getElementById('hitokoto');
+                                hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+                            })
+                            .catch(function (err) {
+                                console.error(err);
+                            })
+                    </script>
+                    <strong style="font-size: large;"><p id="hitokoto">正在加载一言...</p></strong>
                 
             </div>
         </div>
@@ -547,11 +551,11 @@
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
     </div>
@@ -566,6 +570,160 @@
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/ed1ce767/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/14.jpg" class="responsive-img" alt="摘选自《海燕》">
+                            
+                            <span class="card-title">摘选自《海燕》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+作者：高尔基(1868～1936)
+前苏联无产阶级作家,社会主义现实主义文学的奠基人。1868年出生在伏尔加河畔一个木匠家庭。
+
+——–在苍茫的大海上，狂风卷集着乌云。在乌云和大海之间，海燕象黑色的闪电，在高傲地飞翔。
+一会儿翅膀碰着波浪
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
+                                    
+                                <a href="/categories/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/" class="post-category">
+                                    原文摘录
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card-action article-tags">
+                            
+                                <a href="/tags/%E6%91%98%E9%80%89/" class="chip bg-color">
+                                    <i class="fas fa-tags" style="color: white"></i>
+                                    <span style="color: white">摘选</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/6d057c6b/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/1.jpg" class="responsive-img" alt="摘录：不平等世界里的寒门之子">
+                            
+                            <span class="card-title">摘录：不平等世界里的寒门之子</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+非原创，转自人大经济论坛
+
+无论是在中国还是在美国，不平等现象越来越严重、“中国梦”或“美国梦”的实现路径也越来越少。在感叹寒门再难出贵子、励志努力改变生命轨迹的同时，我们应该思考这个社会不公平的现象与制度，选择正确的道路、理智的改变自己
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
+                                    
+                                <a href="/categories/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/" class="post-category">
+                                    原文摘录
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card-action article-tags">
+                            
+                                <a href="/tags/%E6%91%98%E9%80%89/" class="chip bg-color">
+                                    <i class="fas fa-tags" style="color: white"></i>
+                                    <span style="color: white">摘选</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/2f788270/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="检讨前后——摘选选自《三重门》">
+                            
+                            <span class="card-title">检讨前后——摘选选自《三重门》</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                ——节选自《三重门》，韩寒
+好不容易熬过晚自修，晚上觉也不能睡安稳。熄灯前学校播寄宿生须知，广播里又是钱校长的声音，雨翔想这次完蛋，今夜将无眠了，但钱校长自己要赶着睡觉，只把住宿规定念一遍，像是耶和华受犹太教十戒：
+“……市南三中之寝室条例
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
+                                    
+                                <a href="/categories/%E5%8E%9F%E6%96%87%E6%91%98%E5%BD%95/" class="post-category">
+                                    原文摘录
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card-action article-tags">
+                            
+                                <a href="/tags/%E6%91%98%E9%80%89/" class="chip bg-color">
+                                    <i class="fas fa-tags" style="color: white"></i>
+                                    <span style="color: white">摘选</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -636,6 +794,11 @@
                                 
 摘要
 
+
+
+
+两年后的自己会是什么一番模样呢？是依旧雄心壮志，却又任难有所作为？还是内心逐渐平静，而静心去做一件事？我不知道，也不想知道。
+进入大学生活已经快一周了，相比于高中，大学给了我更多的自由与纵容。这样的培育方式给了让飞翔之人一片
                             
                         </div>
                         <div class="publish-info">
@@ -686,6 +849,14 @@
                                 
 摘要
 
+
+
+
+
+非原创
+
+人越惧怕死亡，人就活的越怯懦。而坚强乐观是对死亡的超越。人因为孤独而痛苦，又因痛苦而孤独，在冥冥中两者相辅相成,互为补充，互为因果。看了余华的《活着》，才开始觉得自己从未真正的活着。
+《活着》讲述了福贵一生的悲欢
                             
                         </div>
                         <div class="publish-info">
@@ -736,6 +907,29 @@
                                 
 摘要
 
+
+
+
+CSS 选择器参考手册
+
+
+
+
+CSS 参考手册
+CSS 听觉参考手册
+
+
+
+
+
+我们会定期对 W3School 的 CSS 参考手册进行浏览器测试。
+
+
+
+
+CSS3 选择器
+
+在 CSS 中，选择器是一种模式，用于选择需
                             
                         </div>
                         <div class="publish-info">
@@ -786,6 +980,26 @@
                                 
 摘要
 
+
+
+
+XPath 语法
+
+
+
+XPath 节点
+XPath 轴
+
+
+
+
+
+XPath 使用路径表达式来选取 XML 文档中的节点或节点集。节点是通过沿着路径 (path) 或者步 (steps) 来选取的。
+
+
+
+
+XML 实例文
                             
                         </div>
                         <div class="publish-info">
@@ -827,6 +1041,8 @@
                                 
 原文链接：如何评价 Netflix 原创纪录片《美国工厂》？ - 王凡的回答 - 知乎      https://www.zhihu.com/question/342016897/answer/802878883
 
+
+这个纪录片其实算是民
                             
                         </div>
                         <div class="publish-info">
@@ -938,6 +1154,7 @@ Share of U.S Wealth Held by Generation
                                 
 原文链接：https://www.jianshu.com/p/05987743d27c
 
+
                             
                         </div>
                         <div class="publish-info">
@@ -998,6 +1215,10 @@ Share of U.S Wealth Held by Generation
 原文链接：https://www.mdeditor.com/
 
 欢迎使用 Markdown在线编辑器 MdEditor
+
+Markdown是一种轻量级的「标记语言」
+
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的
                             
                         </div>
                         <div class="publish-info">
@@ -1054,6 +1275,10 @@ Share of U.S Wealth Held by Generation
 西方经济学. 微观部分/高鸿业主编；教育部高教司组主编. —6版.—北京：中国人名大学出版社，2014.6
 授课教师：何菊香
 
+
+
+
+宏观经济的基本指标及衡量宏观经济学的特点宏观经济学由于以国民收入为中心可以
                             
                         </div>
                         <div class="publish-info">
@@ -1159,6 +1384,14 @@ Share of U.S Wealth Held by Generation
                                 
 摘要
 
+
+
+WebServer通讯过程
+HTTP通信机制是在一次完整的HTTP通信过程中，Web浏览器与Web服务器之间将完成下列7个步骤：
+
+
+1.建立TCP连接
+在HTTP工作开始之前，Web浏览器首先要通过网络与Web服务器建立连接
                             
                         </div>
                         <div class="publish-info">
@@ -1262,6 +1495,12 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
                                 
 转自：https://www.jianshu.com/p/46ffff059092
 
+
+
+总览命令大全
+工作图
+
+命令详解新建仓库123456# 在当前目录新建一个Git代码库$ git init# 新建一个目录，将其初始化为Git代码库
                             
                         </div>
                         <div class="publish-info">
@@ -1317,6 +1556,10 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
 原文链接:https://www.zybuluo.com/mdeditor
 迎使用 Cmd Markdown 编辑阅读器
 
+
+
+
+我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，Cmd Markdo
                             
                         </div>
                         <div class="publish-info">
@@ -1346,176 +1589,6 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
                                 <a href="/tags/%E8%AF%AD%E6%B3%95/" class="chip bg-color">
                                     <i class="fas fa-tags" style="color: white"></i>
                                     <span style="color: white">语法</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/16646ee6/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/8.jpg" class="responsive-img" alt="源码解读——ThreadLocal">
-                            
-                            <span class="card-title">源码解读——ThreadLocal</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                简介引出：如何将线程与变量绑定，以解决多线程安全问题？
-
-首先，在Thread解读中提到，每个线程都有一个线程栈，该栈里的数据只能该线程访问。这样一看，貌似线程里创建的变量就天然是线程隔离的，不存在多线程安全问题，实际上，栈空间只是存的方法
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-07-03
-                            </span>
-                            <span class="publish-author">
-                                
-                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
-                                    
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" class="post-category">
-                                    计算机科学
-                                </a>
-                                
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/" class="post-category">
-                                    源码解读
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                        <div class="card-action article-tags">
-                            
-                                <a href="/tags/%E6%BA%90%E7%A0%81/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">源码</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">多线程</span>
-                                </a>
-                            
-                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">计算机</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/5dbf971c/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="源码解读系列：Socket(Socket)">
-                            
-                            <span class="card-title">源码解读系列：Socket(Socket)</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-摘要
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-06-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
-                                    
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" class="post-category">
-                                    计算机科学
-                                </a>
-                                
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/" class="post-category">
-                                    源码解读
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                        <div class="card-action article-tags">
-                            
-                                <a href="/tags/%E6%BA%90%E7%A0%81/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">源码</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/acff7654/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/10.jpg" class="responsive-img" alt="源码解读：socket编程(SocketImpl)">
-                            
-                            <span class="card-title">源码解读：socket编程(SocketImpl)</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                简介“一切皆Socket！”
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-06-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
-                                    
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" class="post-category">
-                                    计算机科学
-                                </a>
-                                
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/" class="post-category">
-                                    源码解读
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                        <div class="card-action article-tags">
-                            
-                                <a href="/tags/%E6%BA%90%E7%A0%81/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">源码</span>
                                 </a>
                             
                         </div>
@@ -1621,9 +1694,6 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
          style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            
-                <span id="year">2018-2021</span>
-            
             <span id="year">2018</span>
             <a href="/about" target="_blank">Gatsby</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1631,7 +1701,7 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">163.6k</span>&nbsp;字
+                class="white-color">185k</span>&nbsp;字
             
             
             
@@ -1757,10 +1827,10 @@ Vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/"></script>
+<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/search.js"></script>
 <script type="text/javascript">
 $(function () {
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/search.xml", 'searchInput', 'searchResult');
 });
 </script>
 
@@ -1778,20 +1848,6 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/matery.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
 
     <!-- Baidu Analytics -->
 
@@ -1812,10 +1868,10 @@ $(function () {
 </script>
 
     
-    <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/clicklove.js" async="async"></script>
+        <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/cursor-effects.js"></script>
     
     
-    <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
+        <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1830,11 +1886,11 @@ $(function () {
         zIndex="-1" src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/background/ribbon.min.js" async="async"></script>
     
 
-    
 
-    
+
+
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/instantpage/instantpage.js" type="module"></script>
-    
+
 
 </body>
 

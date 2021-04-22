@@ -13,20 +13,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
-
     <title>Tag: linux | Gatsby&#39;s Blog</title>
     <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/favicon.svg">
 
@@ -35,17 +21,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/jquery/jquery.min.js"></script>
-    
+
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Gatsby's Blog" type="application/atom+xml">
 </head>
-
-
 
 
 <body>
@@ -530,15 +514,35 @@
 <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
-            <div class="title center-align">
+            <h1 class="title center-align center-text glitch is-glitching"
+                data-text="
                 
-                You see, I&#39;m Gatsby.
+                    You see, I&#39;m Gatsby.
                 
-            </div>
+            ">
+                
+                    You see, I&#39;m Gatsby.
+                
+            </h1>
 
             <div class="description center-align">
                 
-                
+                    <!-- 一言API -->
+                    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+                    <script>
+                        fetch('https://v1.hitokoto.cn')
+                            .then(function (res) {
+                                return res.json();
+                            })
+                            .then(function (data) {
+                                var hitokoto = document.getElementById('hitokoto');
+                                hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+                            })
+                            .catch(function (err) {
+                                console.error(err);
+                            })
+                    </script>
+                    <strong style="font-size: large;"><p id="hitokoto">正在加载一言...</p></strong>
                 
             </div>
         </div>
@@ -546,11 +550,11 @@
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
     </div>
@@ -632,19 +636,10 @@
                 </a>
                 
                 
-                <a href="/tags/%E9%B2%81%E8%BF%85/" title="鲁迅: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="鲁迅" style="background-color: #D7BDE2;">鲁迅
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/%E6%94%BF%E6%B2%BB%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="政治经济学: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="政治经济学" style="background-color: #A3E4D7;">政治经济学
+                            data-tagname="政治经济学" style="background-color: #D7BDE2;">政治经济学
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -653,7 +648,16 @@
                 <a href="/tags/%E7%8E%8B%E6%B2%AA%E5%AE%81/" title="王沪宁: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="王沪宁" style="background-color: #85C1E9;">王沪宁
+                            data-tagname="王沪宁" style="background-color: #A3E4D7;">王沪宁
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E9%B2%81%E8%BF%85/" title="鲁迅: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="鲁迅" style="background-color: #85C1E9;">鲁迅
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -713,20 +717,20 @@
                 </a>
                 
                 
-                <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="经济学: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="经济学" style="background-color: #F9EBEA;">经济学
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/" title="微积分: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="微积分" style="background-color: #F9E79F;">微积分
                         <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="经济学: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="经济学" style="background-color: #F9EBEA;">经济学
+                        <span class="tag-length">4</span>
                     </span>
                 </a>
                 
@@ -758,15 +762,6 @@
                 </a>
                 
                 
-                <a href="/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" title="知识点: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="知识点" style="background-color: #F5EEF8;">知识点
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/%E8%A7%A3%E8%80%A6/" title="解耦: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -790,6 +785,15 @@
                              chip-default "
                             data-tagname="前端" style="background-color: #FEF9E7;">前端
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" title="知识点: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="知识点" style="background-color: #F5EEF8;">知识点
+                        <span class="tag-length">4</span>
                     </span>
                 </a>
                 
@@ -1009,6 +1013,15 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E8%A5%BF%E6%96%B9%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="西方经济学: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="西方经济学" style="background-color: #85C1E9;">西方经济学
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -1123,9 +1136,6 @@
          style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            
-                <span id="year">2018-2021</span>
-            
             <span id="year">2018</span>
             <a href="/about" target="_blank">Gatsby</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1133,7 +1143,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">163.6k</span>&nbsp;字
+                class="white-color">185k</span>&nbsp;字
             
             
             
@@ -1259,10 +1269,10 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/"></script>
+<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/search.js"></script>
 <script type="text/javascript">
 $(function () {
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/search.xml", 'searchInput', 'searchResult');
 });
 </script>
 
@@ -1280,20 +1290,6 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/matery.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
 
     <!-- Baidu Analytics -->
 
@@ -1314,10 +1310,10 @@ $(function () {
 </script>
 
     
-    <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/clicklove.js" async="async"></script>
+        <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/cursor-effects.js"></script>
     
     
-    <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
+        <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1332,11 +1328,11 @@ $(function () {
         zIndex="-1" src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/background/ribbon.min.js" async="async"></script>
     
 
-    
 
-    
+
+
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/instantpage/instantpage.js" type="module"></script>
-    
+
 
 </body>
 

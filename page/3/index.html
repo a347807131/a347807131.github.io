@@ -13,20 +13,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
-
     <title>Gatsby&#39;s Blog</title>
     <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/favicon.svg">
 
@@ -35,17 +21,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/jquery/jquery.min.js"></script>
-    
+
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Gatsby's Blog" type="application/atom+xml">
 </head>
-
-
 
 
 <body>
@@ -531,15 +515,35 @@
 <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
-            <div class="title center-align">
+            <h1 class="title center-align center-text glitch is-glitching"
+                data-text="
                 
-                You see, I&#39;m Gatsby.
+                    You see, I&#39;m Gatsby.
                 
-            </div>
+            ">
+                
+                    You see, I&#39;m Gatsby.
+                
+            </h1>
 
             <div class="description center-align">
                 
-                
+                    <!-- 一言API -->
+                    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+                    <script>
+                        fetch('https://v1.hitokoto.cn')
+                            .then(function (res) {
+                                return res.json();
+                            })
+                            .then(function (data) {
+                                var hitokoto = document.getElementById('hitokoto');
+                                hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+                            })
+                            .catch(function (err) {
+                                console.error(err);
+                            })
+                    </script>
+                    <strong style="font-size: large;"><p id="hitokoto">正在加载一言...</p></strong>
                 
             </div>
         </div>
@@ -547,11 +551,11 @@
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
     </div>
@@ -569,6 +573,187 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
+                    <a href="/posts/e255a10a/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/1.jpg" class="responsive-img" alt="计算机网络">
+                            
+                            <span class="card-title">计算机网络</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                摘要
+
+
+定义
+计算机网络就是互连的，自洽的计算机集合。
+
+
+互连:互相连通。
+自洽:无主从关系。
+
+
+计算机网络是计算机技术和通信技术紧密结合的产物。
+
+
+多路复用(multiplexing)
+
+链路/网络资源(如带宽)划分为资源片
+将资
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
+                                    
+                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" class="post-category">
+                                    计算机科学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card-action article-tags">
+                            
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/" class="chip bg-color">
+                                    <i class="fas fa-tags" style="color: white"></i>
+                                    <span style="color: white">笔记</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/4e809d31/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/4.jpg" class="responsive-img" alt="代理设计模式">
+                            
+                            <span class="card-title">代理设计模式</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                摘要
+
+
+静态代理
+基于接口的静态代理
+
+注:被代理的对象至少实现了一个需要被代理的接口
+
+
+基于子类的静态代理
+
+
+简介静态代理示例代理接口
+12345public interface Human {   void sing(float 
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
+                                    
+                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" class="post-category">
+                                    计算机科学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card-action article-tags">
+                            
+                                <a href="/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" class="chip bg-color">
+                                    <i class="fas fa-tags" style="color: white"></i>
+                                    <span style="color: white">知识点</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/posts/6331d382/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/14.jpg" class="responsive-img" alt="数据库连接池">
+                            
+                            <span class="card-title">数据库连接池</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                摘要
+
+
+##概念
+
+介绍
+
+DBCP(DataBase connection pool)数据库连接池是 apache 上的一个Java连接池项目。DBCP通过连接池预先同数据库建立一些连接放在内存中(即连接池中)，应用程序需要建立数据库连
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
+                                    
+                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" class="post-category">
+                                    计算机科学
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card-action article-tags">
+                            
+                                <a href="/tags/dbcp/" class="chip bg-color">
+                                    <i class="fas fa-tags" style="color: white"></i>
+                                    <span style="color: white">dbcp</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
                     <a href="/posts/7cdec175/">
                         <div class="card-image">
                             
@@ -583,6 +768,18 @@
                         <div class="summary block-with-text">
                             
                                 摘要
+
+
+
+概念事务指逻辑上的一组操作，组成这组操作的各个单元，要么全部成功，要么全部失败。
+
+事务的特性
+原子性(Atomicity)
+
+指事务是一个不可分割的工作单位，事务中的操作要么都发生，要么都不发生。
+
+
+一致性(Consiste
                             
                         </div>
                         <div class="publish-info">
@@ -631,6 +828,15 @@
                         <div class="summary block-with-text">
                             
                                 摘要
+
+
+
+1.概述
+进程是具有一定独立功能的程序关于某个数据集合上的一次运行活动,进程是系统进行资源分配和调度的一个独立单位.
+
+程是进程的一个实体,是CPU调度和分派的基本单位,它是比进程更小的能独立运行的基本单位.
+
+线程自己基本上不
                             
                         </div>
                         <div class="publish-info">
@@ -679,6 +885,13 @@
                         <div class="summary block-with-text">
                             
                                 多线程与多进程概念整理
+
+
+
+1.概述
+进程就是一个程序运行的时候被CPU抽象出来的
+
+一个程序运行后被抽象为一个进程，但是线程是从一个进程里面分割出来的，由于CPU处理进程的时候是采用时间片轮转的方式，所以要把一个大个进程给分割成多个线程
                             
                         </div>
                         <div class="publish-info">
@@ -718,6 +931,9 @@
                         <div class="summary block-with-text">
                             
                                 摘要
+
+
+JdbcUtil12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758
                             
                         </div>
                         <div class="publish-info">
@@ -771,6 +987,13 @@
                         <div class="summary block-with-text">
                             
                                 摘要
+
+
+先说结论：$$f(x)=a^x \\implies f^\prime(x)=a^x\ln a(a&gt;0,a\neq 1)$$
+推导一`
+推导二对指数函数$M(t)=C^{t}$求导，
+按照微积分的定义，有：
+$$\begin{
                             
                         </div>
                         <div class="publish-info">
@@ -863,6 +1086,14 @@
                         <div class="summary block-with-text">
                             
                                 摘要
+
+
+Windows下启动docker-machine
+12docker-machine startdocker-machine env | Invoke-Expression
+
+
+
+查看vm主机环境1234567[root@node2
                             
                         </div>
                         <div class="publish-info">
@@ -906,6 +1137,12 @@
                         <div class="summary block-with-text">
                             
                                 摘要
+
+
+
+最初构想该系统部署在云端，定时轮询各大信息网站，并爬取头条信息，进行信息分类，过滤，储存，展示的功能。对于重要信息将通过邮件通知订阅用户。
+整体架构
+信息爬取环节信息网站列表收录爬虫业务逻辑处理环节一、过滤分级    &nbsp
                             
                         </div>
                         <div class="publish-info">
@@ -1010,6 +1247,11 @@
 公邮：sygaoshu@sina.com 密码：2015101
 
 
+
+
+函数与极限实数的重要性质有序性
+对于任意的两个实数$a,b$,$a&gt;b,a&lt;b,a=b$，三者比必居其一且只是其一
+若$a\l
                             
                         </div>
                         <div class="publish-info">
@@ -1064,6 +1306,11 @@
                             
                                 
 
+
+
+获取root权限1$ sudo su
+
+apt安装yarnOn Debian or Ubuntu Linux, you can install Yarn via our Debian package repository. You 
                             
                         </div>
                         <div class="publish-info">
@@ -1105,6 +1352,9 @@
                                 摘要
 
 
+
+
+1$ docker container run --name jh-registry -e \ JHIPSTER.SECURITY.AUTHENTICATION.JWT.SECRET=dkk20dldkf0209342334 
                             
                         </div>
                         <div class="publish-info">
@@ -1154,6 +1404,37 @@
                             
                                 摘要
 记录个人电脑使用中需要配置的环境和工具
+
+
+windows系统scoop直接管理
+
+
+名称
+描述
+scoop安装
+
+
+
+
+sccop
+windows下的包管理器
+
+
+
+
+Java
+
+openjdk
+
+
+
+aria2
+
+
+
+
+
+tool
                             
                         </div>
                         <div class="publish-info">
@@ -1270,6 +1551,10 @@
                                 
 孔乙己显出极高兴的样子，将两个指头的长指甲敲着柜台，点头说，“对呀对呀！……回字有四样写法⑿，你知道么？”
 
+
+
+作者：鲁迅
+鲁镇的酒店的格局，是和别处不同的：都是当街一个曲尺形的大柜台，柜里面预备着热水，可以随时温酒。做工的人，傍午傍晚
                             
                         </div>
                         <div class="publish-info">
@@ -1295,169 +1580,6 @@
                                 <a href="/tags/%E9%B2%81%E8%BF%85/" class="chip bg-color">
                                     <i class="fas fa-tags" style="color: white"></i>
                                     <span style="color: white">鲁迅</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/a1c2c9f9/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/15.jpg" class="responsive-img" alt="西方经济学(微观部分)的一些问题">
-                            
-                            <span class="card-title">西方经济学(微观部分)的一些问题</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                摘要
-
-关于微观经济学中的一些疑问和习题解答。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-27
-                            </span>
-                            <span class="publish-author">
-                                
-                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
-                                    
-                                <a href="/categories/%E7%96%91%E9%97%AE%E4%B8%8E%E8%A7%A3%E7%AD%94/" class="post-category">
-                                    疑问与解答
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                        <div class="card-action article-tags">
-                            
-                                <a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">经济学</span>
-                                </a>
-                            
-                                <a href="/tags/%E7%96%91%E9%97%AE/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">疑问</span>
-                                </a>
-                            
-                                <a href="/tags/%E4%B9%A0%E9%A2%98/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">习题</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/9a10d059/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="GitSubmodule详解">
-                            
-                            <span class="card-title">GitSubmodule详解</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                摘要
-
-有种情况我们经常会遇到：某个工作中的项目需要包含并使用另一个项目。 也许是第三方库，或者你独立开发的，用于多个父项目的库。 现在问题来了：你想要把它们当做两个独立的项目，同时又想在一个项目中使用另一个。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-23
-                            </span>
-                            <span class="publish-author">
-                                
-                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
-                                    
-                                <a href="/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/" class="post-category">
-                                    知识点
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                        <div class="card-action article-tags">
-                            
-                                <a href="/tags/git/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">git</span>
-                                </a>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/9a10d059/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="GitSubmodule详解">
-                            
-                            <span class="card-title">GitSubmodule详解</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                摘要
-
-有种情况我们经常会遇到：某个工作中的项目需要包含并使用另一个项目。 也许是第三方库，或者你独立开发的，用于多个父项目的库。 现在问题来了：你想要把它们当做两个独立的项目，同时又想在一个项目中使用另一个。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-23
-                            </span>
-                            <span class="publish-author">
-                                
-                                    <i class="fas fa-bookmark fa-fw icon-category" style="color: #0ba360;"></i>
-                                    
-                                <a href="/categories/%E7%9F%A5%E8%AF%86%E7%82%B9/" class="post-category">
-                                    知识点
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                        <div class="card-action article-tags">
-                            
-                                <a href="/tags/git/" class="chip bg-color">
-                                    <i class="fas fa-tags" style="color: white"></i>
-                                    <span style="color: white">git</span>
                                 </a>
                             
                         </div>
@@ -1563,9 +1685,6 @@
          style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            
-                <span id="year">2018-2021</span>
-            
             <span id="year">2018</span>
             <a href="/about" target="_blank">Gatsby</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1573,7 +1692,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">163.6k</span>&nbsp;字
+                class="white-color">185k</span>&nbsp;字
             
             
             
@@ -1699,10 +1818,10 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/"></script>
+<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/search.js"></script>
 <script type="text/javascript">
 $(function () {
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/search.xml", 'searchInput', 'searchResult');
 });
 </script>
 
@@ -1720,20 +1839,6 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/matery.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
 
     <!-- Baidu Analytics -->
 
@@ -1754,10 +1859,10 @@ $(function () {
 </script>
 
     
-    <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/clicklove.js" async="async"></script>
+        <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/cursor-effects.js"></script>
     
     
-    <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
+        <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1772,11 +1877,11 @@ $(function () {
         zIndex="-1" src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/background/ribbon.min.js" async="async"></script>
     
 
-    
 
-    
+
+
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/instantpage/instantpage.js" type="module"></script>
-    
+
 
 </body>
 

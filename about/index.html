@@ -13,20 +13,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
-
     <title>About me | Gatsby&#39;s Blog</title>
     <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/favicon.svg">
 
@@ -35,17 +21,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/jquery/jquery.min.js"></script>
-    
+
 <meta name="generator" content="Hexo 5.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Gatsby's Blog" type="application/atom+xml">
 </head>
-
-
 
 
 <body>
@@ -537,15 +521,35 @@
 <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
-            <div class="title center-align">
+            <h1 class="title center-align center-text glitch is-glitching"
+                data-text="
                 
-                You see, I&#39;m Gatsby.
+                    You see, I&#39;m Gatsby.
                 
-            </div>
+            ">
+                
+                    You see, I&#39;m Gatsby.
+                
+            </h1>
 
             <div class="description center-align">
                 
-                
+                    <!-- 一言API -->
+                    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+                    <script>
+                        fetch('https://v1.hitokoto.cn')
+                            .then(function (res) {
+                                return res.json();
+                            })
+                            .then(function (data) {
+                                var hitokoto = document.getElementById('hitokoto');
+                                hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+                            })
+                            .catch(function (err) {
+                                console.error(err);
+                            })
+                    </script>
+                    <strong style="font-size: large;"><p id="hitokoto">正在加载一言...</p></strong>
                 
             </div>
         </div>
@@ -553,11 +557,11 @@
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
     </div>
@@ -572,7 +576,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">105</a></span>
+    <span class="count"><a href="/">108</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -586,7 +590,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">49</a></span>
+    <span class="count"><a href="/tags">50</a></span>
     <span class="name">Tags</span>
 </div>
 
@@ -595,14 +599,14 @@
                     <div class="col s12 m12 l4">
                         <div class="profile center-align">
                             <div class="avatar">
-                                <img src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.iohttps://www.gravatar.com/avatar/5c03971734d1508e26c331f64f11e6d3?s=256" alt="Gatsby"
+                                <img src="https://www.gravatar.com/avatar/5c03971734d1508e26c331f64f11e6d3?s=256" alt="Gatsby"
                                      class="circle responsive-img avatar-img">
                             </div>
                             <div class="author">
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">105</a></span>
+    <span class="count"><a href="/">108</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -616,7 +620,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">49</a></span>
+    <span class="count"><a href="/tags">50</a></span>
     <span class="name">Tags</span>
 </div>
 
@@ -715,7 +719,8 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">There was a ripe mystery about it, a hint of bedrooms upstairs more beautiful and cool than other bedrooms, of gay and radiant activities taking place through its corridors, and of romances that were not musty and laid away already in lavender but fresh and breathing and redolent of this year’s shining motor cars and of dances whose flowers were scarcely withered.</div>
+                <div class="introduction center-align en-text"
+                     data-aos="fade-up">There was a ripe mystery about it, a hint of bedrooms upstairs more beautiful and cool than other bedrooms, of gay and radiant activities taking place through its corridors, and of romances that were not musty and laid away already in lavender but fresh and breathing and redolent of this year’s shining motor cars and of dances whose flowers were scarcely withered.</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -776,7 +781,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,1,2,4,3,0,0,0,4,3],
+                data: [0,0,0,0,1,2,4,3,0,0,0,4,6],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -818,7 +823,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"书斋","value":13},{"name":"学习笔记","value":17},{"name":"疑问与解答","value":1},{"name":"知识点","value":18},{"name":"计算机科学","value":37},{"name":"课程作业","value":1},{"name":"docker","value":4},{"name":"日常踩坑","value":3},{"name":"源码解读","value":12},{"name":"语法模板","value":5},{"name":"原文摘录","value":17}],
+                data: [{"name":"书斋","value":13},{"name":"原文摘录","value":20},{"name":"学习笔记","value":17},{"name":"疑问与解答","value":1},{"name":"知识点","value":18},{"name":"计算机科学","value":37},{"name":"课程作业","value":1},{"name":"docker","value":4},{"name":"日常踩坑","value":3},{"name":"源码解读","value":12},{"name":"语法模板","value":5}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -886,7 +891,7 @@
 
 
                 
-                
+                    
 <div class="my-projects">
     <div class="title center-align" data-aos="zoom-in-up">
         <i class="fas fa-gift"></i>&nbsp;&nbsp;My Projects
@@ -940,7 +945,7 @@
                 
 
                 
-                
+                    
 <div class="my-skills">
     <div class="title center-align" data-aos="zoom-in-up">
         <i class="fas fa-wrench"></i>&nbsp;&nbsp;My Skills
@@ -1074,6 +1079,20 @@
 
             </div>
         </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content article-card-content">
+                    <div class="title center-align" data-aos="zoom-in-up">
+                        <i class="fa fa-address-book"></i>
+                        &nbsp;&nbsp;myCV
+                    </div>
+                    <div id="articleContent" data-aos="fade-up">
+                        <p>welcome to my site.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
@@ -1142,9 +1161,6 @@
          style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            
-                <span id="year">2018-2021</span>
-            
             <span id="year">2018</span>
             <a href="/about" target="_blank">Gatsby</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1152,7 +1168,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">163.6k</span>&nbsp;字
+                class="white-color">185k</span>&nbsp;字
             
             
             
@@ -1278,10 +1294,10 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/"></script>
+<script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/search.js"></script>
 <script type="text/javascript">
 $(function () {
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
+    searchFunc("https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/search.xml", 'searchInput', 'searchResult');
 });
 </script>
 
@@ -1299,20 +1315,6 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/matery.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156542505-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'UA-156542505-1');
-</script>
-
 
     <!-- Baidu Analytics -->
 
@@ -1333,10 +1335,10 @@ $(function () {
 </script>
 
     
-    <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/clicklove.js" async="async"></script>
+        <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/js/cursor-effects.js"></script>
     
     
-    <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
+        <script async src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1351,11 +1353,11 @@ $(function () {
         zIndex="-1" src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/background/ribbon.min.js" async="async"></script>
     
 
-    
 
-    
+
+
     <script src="https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/libs/instantpage/instantpage.js" type="module"></script>
-    
+
 
 </body>
 
